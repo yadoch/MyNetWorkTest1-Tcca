@@ -10,6 +10,31 @@
         android:layout_height="wrap_content"
         android:onClick="test1"
         />
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/realname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regedit!!"
+        android:onClick="reg"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login!!"
+        android:onClick="login"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
